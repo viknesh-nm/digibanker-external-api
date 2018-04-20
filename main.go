@@ -8,6 +8,7 @@ import (
 	soap "github.com/viknesh-nm/digibanker-external-api/api"
 )
 
+// DigiSecurity holds the client fields
 type DigiSecurity struct {
 	*soap.Client
 }
